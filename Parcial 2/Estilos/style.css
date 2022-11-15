@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Abel';
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #56a42c;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color:antiquewhite;
+    font-size: 26px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav li a:hover{
+    background-color: #3d751f;
+    transition: .5s;
+}
+
+.botoncheck{
+    font-size: 30px;
+    color: whitesmoke;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.institutos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.institutos h1{
+    font-size: calc(25px + 3vw);
+    margin: 25px auto;
+}
+.contenedorInst{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.infoInst{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorInst img {
+    max-width: 90%;
+    border-radius: 15%;
+}
+
+.contenedorInst h2{
+    font-size: calc(15px + 1vw);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.boton{
+    font-size: calc(12px + 1vw);
+    color: antiquewhite;
+    background-color: #56a42c;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.boton:hover{
+    background-color: #3d751f;
+    transition: .5s
+}
+
+footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #04a4cc;
+    height: 10%;
+}
+
+footer h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 15px;
+}
+
+.redesSociales ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.redesSociales ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.btfooter{
+    height: 80%;
+}
+
+.btfooter:hover{
+    transform: scale(1.3);
+}
+
+/* ESTILO PÁGINA INSTITUCIONAL */
+article{
+    padding: 60px 0;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorInstitucional{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56a42c;
+    padding: 30px;
+    margin: 30px;
+}
+
+.info h2, .info img{
+    margin: 0 auto;
+    color: black;
+    font-size: calc(10px + 1vw);
+}
+
+
+.informacionInstitucional h1{
+    font-size: calc(18px + 1vw);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.informacionInstitucional h2{
+    font-size: calc(14px + 1vw);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.informacionInstitucional p{
+    font-size: calc(12px + 1vw);
+    line-height: 150%;
+    text-align: justify;
+}
+
+article iframe{
+    text-align: center;
+}
+
+.informacionInstitucional table{
+    font-size: calc(10px + 1vw);
+    margin: 0 auto;
+}
+
+.informacionInstitucional table th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+.informacionInstitucional article{
+    margin:30px
+}
+
+.infoSedes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+.infoSedes p{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.mapaSede iframe{
+    max-width: 100%;
+}
+
+/*OFERTA ACADÉMICA*/
+
+.carreras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.carreras h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #fafdf9;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+.biotecnologia{
+    margin: 10px auto;
+    background-image: url(../Multimedia/Img/biotecnologia.jpg);
+    width: 100%;
+}
+
+.educacion{
+    margin: 10px auto;
+    background-image: url(../Multimedia/Img/educacionGrande.jpg);
+    width: 100%;
+}
+
+.tecnologia {
+    margin: 10px auto;
+    background-image: url(../Multimedia/Img/tecno.jpg);
+    width: 100%;
+}
+
+.salud{
+    margin: 10px auto;
+    background-image: url(../Multimedia/Img/saludGrande.jpg);
+    width: 100%;
+}
+.carreras-info{
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carrera{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 10px;
+    background-color: #fafdf9;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.infoCarrera h2{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.infoCarrera h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.infoCarrera a{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #04a4cc;
+    border-radius: 25px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.infoCarrera a:hover{
+    background-color: #09718b;
+    transition: .5s;
+}
+
+/* CONTACTO */
+
+.contacto{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+}
+
+.contacto h1, h2, p{
+    margin: 0 auto;
+}
+
+.contacto h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contacto h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contacto p, label, h3{
+    font-size: 20px;
+}
+
+.datosContacto{
+    background-color: #6abfd4;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+.formulario-contacto{
+    background-color: #90db68;
+    margin: 15px auto;
+    padding: 60px;
+    border-radius: 25px;
+}
+
+.formulario label{
+    margin: 20px 0;
+}
+
+.botonFormulario{
+    background-color:#56a42c;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.botonFormulario:hover{
+    background-color: #3d751f;
+    transition: .5s;
+}
+
+@media only screen and (max-width: 1573px){
+    .carrera{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1095px){
+
+    .contenedorInstitucional{
+        grid-template-columns: 50% 50%;
+    }
+
+    .infoSedes{
+        grid-template-columns: 100%;
+    }
+
+    .mapaSede{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contacto{
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 999px){
+    .carreras-info{
+        grid-template-columns: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+.botoncheck{
+    display: block;
+}
+
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:#56a42c;
+    top: 200px;
+    left: -100%;
+    text-align: center;
+    transform: all .5s;
+}
+
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+}
+
+nav ul li a{
+    font-size: 22px;
+}
+
+li a:hover{
+    background: none;
+    color: #061b16;
+}
+
+#check:checked ~ul{
+    left:0;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 556px){
+
+    .contenedorInst{
+        grid-template-columns: 100%;
+        width: 90%;
+
+    }
+
+    .contenedorInst h2{
+        font-size: 24px;
+    }
+}

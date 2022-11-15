@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <title>Universidad Nacional de Hurlingham</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" target="_self">
+            <img src="../Multimedia/Img/Logo.png" alt="Logo UNAHUR" title="Logo de la Universidad Nacional de Hurlingam">
+        </a>
+    </header>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="botoncheck">
+            <img src="../Multimedia/Img/menu.png">
+        </label>
+        <ul>
+            <li><a href="index.html" target="_self">Inicio</a></li>
+            <li><a href="institucional.html" target="_self">Institucional</a></li>
+            <li><a href="ofertaAcademica.html" target="_self">Oferta Académica</a></li>
+            <li><a href="https://unahur.edu.ar/la-perla-del-oeste/" target="_blank">Noticias</a></li>
+            <li><a href="contacto.html" target="_self">Contactanos</a></li>
+        </ul>
+    </nav>
+
+    <section class="contacto">
+        <div class="datosContacto">
+            <h1>CONTACTANOS</h1>
+            <h2>Centro integral de atención al estudiante</h2>
+            <p>(011) 2078 - 5200</p>
+            <p>Atención de lunes a viernes de 10 a 19hs.</p>
+            <p><a href="mailto:gestionestudiantil@unahur.edu.ar">gestionestudiantil@unahur.edu.ar</a></p>
+        </div>
+    
+        <div class="formulario-contacto">
+            <h2>¿Tenés alguna duda? Contactanos</h2>
+            <form>
+                <div class="formulario">
+                    <label for="nombre"> Nombre y apellido: </label>
+                    <input id="nombre" type="text" name="nombre"> <br>
+                </div>
+                <div class="formulario">
+                    <label for="Fecha_nac" class="formulario"> Fecha de nacimiento: </label>
+                    <input id="Fecha_nac" type="date" name="fecha_nac"> <br>
+                </div>
+                <div class="formulario">
+                    <label for="email"> Email: </label>
+                    <input id="email" type="email" name="email"> <br>    
+                </div>
+    
+                <div class="formulario">
+                    <h3>Dejanos un mensaje y nos pondremos en contacto:</h3>
+                    <textarea name="comentario" rows="10" cols="30" class="negro">
+                        Comentario.
+                    </textarea>
+                </div>
+    
+                <button type="submit" onclick="alert('¡Mensaje enviado!')" class="botonFormulario">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </section>
+    
+
+
+    <footer>
+        <section class="redesSociales">
+            <h2>¡Seguinos en nuestras redes sociales!</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/UNAHUR" target="_blank">
+                        <img src="../Multimedia/Img/fb.png" class="btfooter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/unahurlingham" target="_blank">
+                        <img src="../Multimedia/Img/tw.png" class="btfooter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/unahurlingham/?hl=en" target="_blank">
+                        <img src="../Multimedia/Img/ins.png" class="btfooter">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
