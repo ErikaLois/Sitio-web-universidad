@@ -7,11 +7,14 @@ Generar una página web de un sitio para nuestra universidad. Esto quiere decir 
 Pueden entrar a la web oficial y tomar toda la información que necesiten (imágenes, texto, etc.), pero les pedimos que tengan por lo menos estas cosas dentro de la Web:
 
 <ul>
-<li> Por lo menos 3 secciones (pueden ser diferentes HTML o una sola Web bien ordenada). <li>
-Inicio (de libre elección)
-Oferta académica (se muestra el catalogo de carreras de la universidad, lo desarrollamos en detalle más abajo)
-Contacto (se espera un formulario de contacto y datos de ubicación de la universidad)
-Pueden agregar otras con lo que quieran, por ejemplo "Institucional", "Noticias", etc. 
+  <li>
+    Por lo menos 3 secciones (pueden ser diferentes HTML o una sola Web bien ordenada). 
+    <ul>
+      <li> Inicio (de libre elección) </li>
+      <li>Oferta académica (se muestra el catalogo de carreras de la universidad, lo desarrollamos en detalle más abajo)</li>
+      <li>Contacto (se espera un formulario de contacto y datos de ubicación de la universidad)</li>
+      <li>Pueden agregar otras con lo que quieran, por ejemplo "Institucional", "Noticias", etc. </li>
+    </ul>
 Menú principal superior (colocar las secciones que hagan)
 Dentro de "Oferta académica", colocar el catálogo de carreras universitarias (divididas por instituto) en forma de grilla: 
 Deben mostrar por cada uno: ícono o imagen + nombre de la carrera + duración + botón para obtener más información (el botón no hace falta que funcione realmente, si quieren desarrollar alguna de las carreras sería un plus).
