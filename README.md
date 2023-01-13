@@ -1,10 +1,8 @@
 <h1>Segundo parcial del Taller de Lenguajes de marcado y tecnologías web. </h1>
 
-  <h2>Enunciado:</h2>
+<h2>Enunciado:</h2>
   
-    <section>
-    
-      <p>
+<p>
   Generar una página web de un sitio para nuestra universidad. Esto quiere decir que deben crear un nuevo diseño con todo lo que han aprendido. 
   Pueden entrar a la web oficial y tomar toda la información que necesiten (imágenes, texto, etc.), pero les pedimos que tengan por lo menos estas cosas dentro de la Web:
 </p>
@@ -28,4 +26,4 @@
   <li>Como ya lo dijimos, la web debe ser responsive compatible con diferentes tamaños y dispositivos. Se espera que la grilla de carreras universitarias tenga distintas cantidades de columnas según el tamaño, por ejemplo 4 columnas para pantallas grandes llegando hasta 1 o 2 para el modo celular. Estas cantidades de columnas que indicamos son estimaciones, pueden colocar las cantidades que quieran mientras que el diseño quede bien y se vea/lea correctamente todo.</li>
   
 </ul>
-</section>
+
